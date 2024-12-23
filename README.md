@@ -27,7 +27,7 @@ UrbanFlow is a modern urban transportation management system developed in C++. T
    ```
 3. Compile the project:
    ```bash
-   g++ -o UrbanFlow main.cpp transit.cpp passenger.cpp
+   g++ -o UrbanFlow UrbanFlow.cpp
    ```
 4. Run the executable:
    ```bash
@@ -41,11 +41,11 @@ UrbanFlow is a modern urban transportation management system developed in C++. T
 UrbanFlow/
 │
 ├── src/
-│   ├── main.cpp          # Main program logic
-│   ├── transit.cpp       # Transit line management
-│   ├── transit.h         # Transit line definitions
-│   ├── passenger.cpp     # Passenger management
-│   └── passenger.h       # Passenger definitions
+│   ├── UrbanFlow.cpp          # Main program logic
+│   ├── transit       # Transit line management
+│   ├── transit         # Transit line definitions
+│   ├── passenger     # Passenger management
+│   └── passenger       # Passenger definitions
 │
 ├── README.md             # Project documentation
 └── LICENSE               # Project license
